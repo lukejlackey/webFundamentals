@@ -1,0 +1,37 @@
+button {
+    display: block;
+    text-align: center;
+    margin-top: 10px;
+}
+
+#search {
+    height: 27px;
+    width: 120px;
+    background-color: rgb(232, 232, 232);
+    border: 2px solid cadetblue;
+    border-radius: 20px;
+    color: cadetblue;
+    font-weight: bold;
+}
+
+#plus {
+    height: 29px;
+    width: 29px;
+    background-color: rgb(57, 189, 189);
+    border-width: 0px;
+    border-radius: 50%;
+    color: whitesmoke;
+    font-size: larger;
+    font-weight: lighter;
+}
+
+#account {
+    height: 30px;
+    width: 150px;
+    background-color: cornflowerblue;
+    border: 3px solid black;
+    box-shadow: 3px 3px black;
+    color: white;
+    font-size: small;
+    font-weight: lighter;
+}
