@@ -1,0 +1,47 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+div {
+    padding: 30px;
+    background-color: gainsboro;
+    align-items:center;
+    justify-content: space-between;
+}
+
+#bg>h1,.row{
+    display: flex;
+    margin-bottom: 30px
+}
+
+h1 {
+    color: rgb(25, 25, 25);
+    font-size: 50px;
+    font-family: sans-serif;
+    justify-content: center;
+}
+
+p{
+    color: gray;
+    text-align: center;
+}
+
+img.octocat {
+    height: 200px;
+}
+
+#bb {
+    background-color: deepskyblue;
+}
+
+#rb {
+    background-color: palevioletred;
+    padding: 30px 150px;
+    justify-content:space-around;
+}
+
+#wb{
+    background-color: white;
+}
