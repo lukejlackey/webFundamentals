@@ -1,0 +1,237 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+h1 {
+    font-size: 30px;
+    font-family: 'Roboto', sans-serif;
+    display: flex;
+    color: white
+}
+
+h3 {
+    font-weight: bold;
+    color: white
+}
+
+h4 {
+    font-size: large;
+}
+
+ul {
+    list-style-type: none;
+}
+
+#nav {
+    background-color: rgb(51,51,51);
+    padding: 15px 200px;
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    color: white;
+    margin: 0 auto;
+    min-width: 725px;
+}
+
+#left-nav {
+    min-width: 675px;
+}
+
+.nav-links {
+    width: 400px;
+    color: rgb(191,191,191);
+    justify-content: space-around;
+    align-items: center;
+    font-family: 'Roboto', sans-serif;
+    display: flex;
+}
+
+.nav-links a{
+    text-decoration: none;
+    color: inherit;
+}
+
+#btn {
+    height: 30px;
+    min-width: 100px;
+    background-color: rgb(20,162,184);
+    font-size: 15px;
+    border: 4px solid black;
+    box-shadow: 4px 4px 4px black;
+}
+
+#active, #btn {
+    color: white;
+}
+
+#main {
+    display: flex;
+    padding: 0px 200px;
+    justify-content: space-between;
+}
+
+#main>div>*{
+    margin-top: 50px;
+}
+
+#col1{
+    flex: 2;
+    margin-right: 50px;
+    min-width: 450px;
+}
+
+#col2{
+    flex: 1;
+    min-width: 275px;
+}
+
+#col2 p {
+    font-size: medium;
+    font-weight: bold;
+}
+
+#col2 .boxBody li {
+    display: flex;
+}
+
+#col2 .boxBody p {
+    font-size: large;
+}
+
+#col2 li, li * {
+    display: flex;
+    align-items: center;
+}
+
+#userCard{
+    background-color: white;
+}
+
+#pHeader {
+    height: 100px;
+    background-color: #14A2B8;
+}
+
+#pBody {
+    padding: 30px 0px;
+    border: 5px solid rgb(215,215,215);
+    border-top: none;
+}
+
+#pBody>*{
+    margin-left: 50px;
+    margin-bottom: 15px;
+    font-size: 20px;
+}
+
+#pBody h2 {
+    font-size: 35px;
+    margin-top: 30px;
+}
+
+#pfp {
+    display: flex;
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    border: 5px solid white;
+    box-shadow: 0px 0px 0px 5px rgb(215,215,215);
+    position: relative;
+    top: 50px;
+    left: 50px;
+}
+
+#loc{
+    display: flex;
+    height: 20px;
+}
+
+#loc>img, #editProf>img{
+    margin-right: 10px;
+}
+
+#editProf {
+    display: flex;
+    height: 20px;
+}
+
+.box1>* {
+    padding: 10px 10px;
+}
+
+.boxHeader {
+    background-color: #333333;
+    display: flex;
+    align-items: center;
+}
+
+.boxBody {
+    border: 5px solid rgb(215,215,215);
+    border-top: none;
+}
+
+.boxBody ul {
+    width: 100%;
+}
+
+#educ>div {
+    padding-right: 20px;
+}
+
+#educ p {
+    margin-top: 10px;
+}
+
+#eduDate {
+    color: #8A8A8A;
+}
+
+.headCircle {
+    border-radius: 50%;
+    color: #717171;
+    background-color: #C2C2C2;
+    height: 25px;
+    width: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 10px;
+}
+
+#circ2 {
+    width: 50px;
+}
+
+.smallUser {
+    height: 30px;
+    margin-right: 10px;
+}
+
+.iconName {
+    display: flex;
+}
+
+.adIcons {
+    width: 64px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.adIcon {
+    height: 27px;
+}
+
+#cReq li {
+    padding: 10px 0px;
+}
+
+#yourConn li {
+    padding: 5px 0px;
+}
+
+.reqLi {
+    justify-content: space-between;
+}

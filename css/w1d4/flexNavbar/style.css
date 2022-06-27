@@ -4,6 +4,13 @@
     box-sizing: border-box;
 }
 
+.nav, .main {
+    padding: 0px 3000px;
+    margin: 0px auto;
+    display: flex;
+
+}
+
 .nav {
     background-color: rgb(51,51,51);
     padding: 15px;
@@ -13,29 +20,25 @@
     color: white;
 }
 
+.left-nav{
+    display: flex;
+}
+
 .nav-title {
     font-size: 30px;
     font-family: 'Roboto', sans-serif;
-    align-items: inherit;
 }
 
 .nav-links {
     list-style-type: none;
     display: flex;
     width: 400px;
-    color: rgb(191,191,191);
-    justify-content: space-between;
-    align-items: inherit;
     font-family: 'Roboto', sans-serif;
 }
 
-a {
-    color: inherit;
-    text-decoration: inherit;
-}
-
-.active, .btn {
-    color: white;
+.nav-links a {
+    text-decoration: none;
+    color: rgb(191,191,191);
 }
 
 .btn {
