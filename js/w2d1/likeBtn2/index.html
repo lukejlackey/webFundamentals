@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Likes</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Network</h1>
+    <h2>Your Feed</h2>
+    <div id="main">
+        <div id="profile">
+            <img src="./user-circle.png" alt="profile pic">
+            <br>
+            <a href="#">Add an avatar</a>
+            <h3>James Doe</h3>
+        </div>
+        <div id="feed">
+            <div class="userBox">
+                <div class="userTop">
+                    <h3>Some User</h3>
+                    <div class="likes">
+                        <p><span id="likeCnt1">3</span> like(s)</p>
+                        <button class="likeBtn" onclick="incLike('#likeCnt1')">Like</button>
+                    </div>
+                </div>
+                <p class="userBottom">This is some filler text, it can say <a href="#">anything</a> we like</p>
+            </div>
+            <div class="userBox">
+                <div class="userTop">
+                    <h3>Some User</h3>
+                    <div class="likes">
+                        <p><span id="likeCnt2">3</span> like(s)</p>
+                        <button class="likeBtn" onclick="incLike('#likeCnt2')">Like</button>
+                    </div>
+                </div>
+                <p class="userBottom">This is some filler text, it can say <a href="#">anything</a> we like</p>
+            </div>
+            <div class="userBox">
+                <div class="userTop">
+                    <h3>Some User</h3>
+                    <div class="likes">
+                        <p><span id="likeCnt3">3</span> like(s)</p>
+                        <button class="likeBtn" onclick="incLike('#likeCnt3')">Like</button>
+                    </div>
+                </div>
+                <p class="userBottom">This is some filler text, it can say <a href="#">anything</a> we like</p>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
